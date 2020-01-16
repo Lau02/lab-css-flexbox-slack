@@ -5,3 +5,176 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto';
+    margin: 30px;
+}
+
+nav {
+    position: fixed;
+    color: #5b5e6d;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 20%;
+    margin-left: 15px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.burguer {
+    background-color: aqua;
+    display: flex;
+}
+
+nav ul {
+    width: 20%;
+    font-size: 14px;
+    display: flex;
+}
+
+.hero {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 33px;
+    max-width: 90vw;
+    margin-top: 150px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    display: flex;
+
+}
+
+.hero .already {
+    text-align: center;
+}
+
+.hero img {
+    display: flex;
+
+}
+
+.hero p {
+    font-size: 1.7em;
+    line-height: 1.5em;
+    color: #5b5e6d;
+    text-align: left;
+    max-width: 90vw;
+    margin-bottom: 50px;
+    display: flex;
+
+}
+
+.hero input {
+    color: #5b5e6d;
+    width: 100vw;
+    border: 3 solid lightgrey;
+    padding: 15px 35px;
+    width: 100vw;
+    display: flex;
+}
+
+.button-blue {
+    background-color: #192592;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px 35px;
+    width: 100vw;
+    border-radius: 4%;
+    display: flex;
+}
+
+.hero p.already {
+    text-align: center;
+    display: flex;
+
+}
+
+.good-company {
+    background-color: #F4F3F4;
+    padding: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.companies img {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a
+}
+
+.companies h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.companies p {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #5b5e6d;
+    text-align: center;
+
+}
+
+.button-white {
+    background-color: white;
+    color: #192592;
+    font-weight: bold;
+    border: 1px solid #192592;
+    padding: 15px 35px;
+    width: 100vw;
+    border-radius: 4%;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .hero h1 {
+        font-size: 70px;
+    }
+
+    .button-blue,
+    .button-white {
+        width: 60vw;
+    }
+
+    .hero input {
+        width: 60vw;
+    }
+
+}
+
+@media screen and (min-width: 961px) {
+
+    .icon {
+        display: none;
+    }
+
+}
